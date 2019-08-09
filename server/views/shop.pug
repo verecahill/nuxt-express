@@ -1,0 +1,15 @@
+extends layouts/main-layout.pug
+
+block content
+    h1 My Product
+    p list of Products     
+    if prods.length > 0
+        .row
+            each product in prods
+                .card.col-sm-4
+                    img(class="card-img-top" src="https://cdn.pixabay.com/photo/2015/06/25/17/56/people-821624__340.jpg", alt="")
+                    .card-body
+                        h5.card-title #{product.title}
+                        h3.card-text $19.00
+                        p.card-text description
+                        a(href="" class="btn btn-primary") Go

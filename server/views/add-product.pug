@@ -1,0 +1,11 @@
+
+extends layouts/main-layout.pug
+
+block styles
+
+block content
+    form(action="/admin/add-product", method="post")
+        .form-group
+            label(for="addProduct") Title
+            input(type="text" class="form-control col-5" name="title" id="addProduct")
+            button.btn.btn-primary.col-2(type="submit") Submit

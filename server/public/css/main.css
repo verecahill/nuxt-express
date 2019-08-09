@@ -1,0 +1,26 @@
+.nav {
+    background-color: rgba(230, 230, 230, 0.486);
+    height: 70px;
+    /* justify-content: center; */
+    align-content: center;
+    padding: 20px;
+}
+
+.nav a {
+    color: black;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 30px;
+}
+
+.card-img-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 10px;
+}
